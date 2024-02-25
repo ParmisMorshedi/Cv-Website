@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+
+}
+
+/*menu*/
+#SideNav{    
+    background-color: rgb(53, 52, 52); 
+    height: 40px;  
+}
+  nav ul{
+    text-align: center;
+    padding: 0; 
+}
+  nav li {
+    display: inline-block;
+}
+  
+  nav li a{
+   
+    text-decoration: none; /* Delet underline */  
+    color: rgb(13, 13, 13);
+    font-weight: bold;
+    margin-right: 17px; /*Space between buttons */
+    padding: 8px 15px;  /*Color box size on the buttons*/
+    border-radius: 4px; /*border for hover*/
+    transition: 0.6s;
+}
+ 
+ 
+  nav a{
+    display: inline-block;
+  
+}
+ nav li a:hover{
+    transform: scale(1.2) ; /*Buttons gets bigger */
+    background-color: rgba(162, 198, 181, 0.869); 
+}
+ 
+ 
+  /*if you are in Contact page*/
+   nav a.active {
+
+     background-color: rgba(179, 187, 179, 0.869);
+     color: #fff;
+     padding: 10px 15px;
+     border-radius: 3px;
+     
+}
+  
+    @media (max-width: 650px){
+      nav ul{
+        display: flex;
+        justify-content: center;        
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 0;
+         
+    }
+      nav li{
+    margin: 0;
+    }
+  
+}
+ 
+
+ 
+  
+#container{
+    background-color: rgb(137, 130, 121); 
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:small;
+    padding: 25px;
+  
+    
+}
+p{
+   
+    max-width: 300px; 
+     width: 100%; 
+    margin: 0 auto;
+} 
+   
+    
+
+
+.picture {
+    background: linear-gradient(rgba(0, 0, 0, 0.777), rgba(0, 0, 0, 0.511) ), url(telephone-4440525_640\ copy.jpg);
+    width: 100%; 
+    height: 20rem;
+}
+
+form{
+   
+    max-width: 300px;
+    margin: 0 auto;
+    padding:25px
+}
+.name-part{
+    display: flex;
+    justify-content: space-between;
+}
+
+.name-part input{
+    width: 35%;
+    padding: 5px;
+    margin-left:5px;
+    align-self: end;
+
+}
+
+
+label{
+    display: block;
+    margin-bottom: 5px;
+}
+input{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+button{
+    margin:16px 127px;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    
+}
+button:hover{
+    background-color: #555;
+}
+
+
+
+
+
+
+
+/*Footer*/
+footer {
+    margin: 0;
+    padding: 0;
+
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(53, 52, 52);
+    color:  rgba(255, 255, 255, 0.623);
+    font-size: 11pt;
+    box-sizing: border-box;
+    position: fixed;
+    bottom: 0;   
+    width: 100%;
+
+
+
+}
+
+.footer-contact {
+    margin: 0;
+    padding: 20px;
+
+
+
+    width: 20%; 
+    height: 100%;
+
+    
+}
+
+#text-socialmedia {
+    width: 50%;
+    text-align: right; 
+    padding: 20px;
+
+    
+}
+
+#text-socialmedia p {
+ 
+    align-self: center;
+    margin-right: 20px;   
+}
+
+.button-socialmedia {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.button-socialmedia i {
+    
+    font-size: 23px;
+    color: rgb(167, 161, 161);
+    margin-right: 23px;
+
+}
