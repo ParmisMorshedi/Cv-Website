@@ -186,9 +186,9 @@
     }
     .div1 { width: 20rem; margin-left: 30px; }
     .div2 { width: 23rem; margin-left: 77px; }
-    .div3 { width: 50%; }
-    .div4 { width: 20%; }
-    .div5 { width: 55%; }
+    .div3 { width: 43%; margin-left: 75px; }
+    .div4 { width: 47%;  }
+    .div5 { width: 50%; margin-left: 18px; }
 
     li{
         list-style: none;
