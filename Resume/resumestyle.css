@@ -331,25 +331,15 @@ footer {
   }
 
   .vertical-line {
-    left: 5%;
+    display: none;
   }
 
   .circle-1,
-  .circle-2
+  .circle-2,
   .circle-3 {
-    left: 4%;
-    transform: translate(0%, -50%);
-  }
-.circle-2 {
-    top: 70%; 
-    left: 5.2%;
-
+    display: none;
   }
 
-  .circle-3 {
-    top: 93%; 
-    left: 5.2%;
-  }
   #des {
     height: auto;
     padding-bottom: 2rem;
@@ -363,6 +353,37 @@ footer {
   overflow-wrap: break-word;
   word-break: break-word;
   white-space: normal;
+
+   #graph ul {
+    padding: 0;
+    width: 90%;
+  }
+
+  #graph li {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .subject1,
+  .subject2,
+  .subject3,
+  .subject4,
+  .subject5 {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 20px;
+  }
+
+  .div1, .div2, .div3, .div4, .div5 {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .percentage {
+    margin-left: 0;
+    align-self: flex-end;
+  }
 }
 
 /* @media (max-width: 450px) {
