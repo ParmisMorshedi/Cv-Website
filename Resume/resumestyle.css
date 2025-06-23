@@ -1,15 +1,4 @@
  
-html, body {
-  width: 100%;
-  overflow-x: hidden; /* جلوگیری از اسکرول افقی */
-}
-
-section, .timeline, .resume-container {  /* یا هر اسم کلاس بخشی که رزومه‌ست */
-  max-width: 100%;
-  box-sizing: border-box;
-  overflow-x: hidden;
-}
-
 *{
     margin: 0;
     padding: 0;
@@ -60,8 +49,8 @@ section, .timeline, .resume-container {  /* یا هر اسم کلاس بخشی �
      border-radius: 3px;
      
 }
-  
-    @media (max-width: 650px){
+/*   
+    @media (max-width: 400px){
       nav ul{
         display: flex;
         justify-content: center;        
@@ -74,9 +63,9 @@ section, .timeline, .resume-container {  /* یا هر اسم کلاس بخشی �
     margin: 0;
     }
   
-  }
+  } */
 
-/*main*/
+
  
 #des, #graph {
     overflow: hidden;
@@ -95,7 +84,7 @@ section, .timeline, .resume-container {  /* یا هر اسم کلاس بخشی �
     display: flex;
     align-items: center;
     justify-content:center;
-    height: 100vh;
+    height: 100%;
     
     
 }
@@ -103,7 +92,7 @@ section, .timeline, .resume-container {  /* یا هر اسم کلاس بخشی �
 .text-1, .text-2, .text-3 {
 
     position:relative; 
-    max-width: 300px; 
+    /* max-width: 300px;  */
      width: 100%; 
      color:  rgba(255, 255, 255, 0.723);
    
