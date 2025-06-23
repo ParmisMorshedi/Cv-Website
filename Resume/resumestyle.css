@@ -40,7 +40,7 @@
 }
  
  
-  /*if you are in resume page*/
+  /*Resume page*/
    nav a.active {
 
      background-color: rgba(179, 187, 179, 0.869);
@@ -101,17 +101,20 @@
 
 .text-1 {  
     position: absolute;
-    top: 25vh; 
+    top: 10vh; 
     left: 60%; ;
 } 
 
-.text-2 { top: 8%; right: 0%;}
-.text-3 { top: 35%; left:11%;}
+
+.text-2 { top: 20%; right: 0%;}
+.text-3 { top: 36%; left:11%;}
 
 
 
 .sub{
     color:  #0bf351b8;
+      margin-top: 15px;
+
 }
 
 .container span,h2{
@@ -143,11 +146,20 @@
     border-radius: 50%;
 }
 
-.circle-1 { top: 20%; left: 50%; transform: translate(-50%, -50%); }
-.circle-2 { top: 50%; left: 50%; transform: translate(-50%, -50%); }
-.circle-3 { top: 80%; left: 50%; transform: translate(-50%, -50%); }
+.circle-1 { top: 10%; left: 50%; transform: translate(-50%, -50%); }
+.circle-2 { top: 66%; left: 50%; transform: translate(-50%, -50%); }
+.circle-3 { top: 86%; left: 50%; transform: translate(-50%, -50%); }
 
+.paragraph {
+  color: rgba(255, 255, 255, 0.723);
+  margin-left: 1rem;
+  margin-bottom: 10px;
 
+}
+
+.paragraph li {
+  list-style-type: disc; 
+}
 
 /*section2*/
 
