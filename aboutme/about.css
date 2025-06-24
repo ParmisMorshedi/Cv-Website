@@ -30,7 +30,6 @@ header{
     text-decoration: none; /* Delet underline */  
     color: rgb(13, 13, 13);
     font-weight: bold;
-    margin-right: 17px; /*Space between buttons */
     padding: 8px 15px;  /*Color box size on the buttons*/
     border-radius: 4px; /*border for hover*/
     transition: 0.6s;
